@@ -19,8 +19,4 @@ Hints:
     Search for PowerShell commands that will list groups in Active Directory
     Search for PowerShell commands that will list the members of groups
 #>
-function Install-RSAT {
-    param(
-        $ComputerName
-    )
-}
+foreach ($group in $adgroups) {write-host ("$($group | select-object -ExpandProperty Name)`n====================================`n$(Get-ADGroupMember -Identity ($group | select-object -ExpandProperty Name) | select-object -ExpandProperty Name)`n")}
