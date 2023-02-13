@@ -26,40 +26,38 @@ function agent_credentials {
             $temp_array += ,[int]$input
             $jagged_array += ,$temp_array
             $temp_array = @()
-        }
-        
-        elseif ($input -eq "") {
-            if ($temp_array) {
-                $finalArray += $temp_array
             }
-            break
-    }
         
-        elseif ([Int]::TryParse($input, [ref] $null) -eq $False){ 
+        elseif($input -eq ""){
+            if($temp_array.count -gt 0){
+                $jagged_array += ,$temp_array
+                break
+            }
+            else {
+                break
+            }
+        }
+        else{
             $temp_array += ,$input
         }
-
-        
-}
-
-    foreach($array in $jagged_array){
-    $arrayForDisplay += "( "
-    foreach($arrayelement in $array)
-    {
-        $arrayForDisplay += $arrayelement.ToString() + ","
     }
 
-    $arrayForDisplay = $arrayForDisplay -replace ".$"
-    $arrayForDisplay += " ), "
+    foreach($array in $jagged_array){
+        $arrayForDisplay += "( "
+        foreach($arrayelement in $array)
+        {
+            $arrayForDisplay += $arrayelement.ToString() + ","
+        }
+    
+        $arrayForDisplay = $arrayForDisplay -replace ".$"
+        $arrayForDisplay += " ), "
+    }
+    $arrayForDisplay = $arrayForDisplay.Trim() -replace ".$"
+    $arrayForDisplay += " )"
+    
+    $arrayForDisplay
+    
 }
-$arrayForDisplay = $arrayForDisplay.Trim() -replace ".$"
-$arrayForDisplay += " )"
-
-$arrayForDisplay
-
-}
-
-
 
 agent_credentials
 
