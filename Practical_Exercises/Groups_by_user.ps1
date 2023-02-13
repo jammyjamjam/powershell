@@ -20,3 +20,10 @@ Hints:
     Search for PowerShell commands that will list the members of groups
 #>
 foreach ($group in $adgroups) {write-host ("$($group | select-object -ExpandProperty Name)`n====================================`n$(Get-ADGroupMember -Identity ($group | select-object -ExpandProperty Name) | select-object -ExpandProperty Name)`n")}
+
+#V2:
+Get-Adgroup -filter * | ForEach-Object {
+    $groupName = $_ | Select-Object -ExpandProperty Name
+    $userNames = (Get-ADGroupMember -Identity $groupName | Select-Object -ExpandProperty Name) -join "`n"
+    Write-Host "$groupName`n====================================`n$userNames`n"
+}
