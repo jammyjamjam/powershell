@@ -2,9 +2,7 @@ function get-systemdatetime {
     Get-Date -Format "yyyy-MM-dd@hh:mm:ss"
 }
 
-function get-systemname {
-    write-host $env:COMPUTERNAME
-}
+function get-systemname {$env:COMPUTERNAME}
 
 #function get-users_of_groups {
 #    Get-Adgroup -filter * | ForEach-Object {

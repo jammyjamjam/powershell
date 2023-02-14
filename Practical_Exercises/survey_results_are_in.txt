@@ -1,0 +1,1033 @@
+﻿2023-02-14@04:15:17
+
+Antecedent                                                          
+----------                                                          
+\\.\root\cimv2:Win32_Account.Domain="WIN-OPS",Name="SYSTEM"         
+\\.\root\cimv2:Win32_Account.Domain="WIN-OPS",Name="LOCAL SERVICE"  
+\\.\root\cimv2:Win32_Account.Domain="WIN-OPS",Name="NETWORK SERVICE"
+\\.\root\cimv2:Win32_Account.Domain="WIN-OPS",Name="cloudbase-init" 
+\\.\root\cimv2:Win32_Account.Domain="WIN-OPS",Name="student"        
+\\.\root\cimv2:Win32_Account.Domain="WIN-OPS",Name="DWM-1"          
+\\.\root\cimv2:Win32_Account.Domain="WIN-OPS",Name="DWM-3"          
+\\.\root\cimv2:Win32_Account.Domain="WIN-OPS",Name="UMFD-0"         
+\\.\root\cimv2:Win32_Account.Domain="WIN-OPS",Name="UMFD-1"         
+\\.\root\cimv2:Win32_Account.Domain="WIN-OPS",Name="UMFD-3"         
+
+
+
+name                                processid parentprocessid executablepath                                           
+----                                --------- --------------- --------------                                           
+System Idle Process                         0               0                                                          
+System                                      4               0                                                          
+Registry                                  108               4                                                          
+smss.exe                                  360               4                                                          
+csrss.exe                                 464             452                                                          
+wininit.exe                               540             452                                                          
+csrss.exe                                 548             532                                                          
+winlogon.exe                              612             532 C:\windows\system32\winlogon.exe                         
+services.exe                              648             540                                                          
+lsass.exe                                 680             540 C:\windows\system32\lsass.exe                            
+svchost.exe                               820             648 C:\windows\system32\svchost.exe                          
+fontdrvhost.exe                           848             612 C:\windows\system32\fontdrvhost.exe                      
+fontdrvhost.exe                           852             540 C:\windows\system32\fontdrvhost.exe                      
+svchost.exe                               936             648 C:\windows\system32\svchost.exe                          
+svchost.exe                               992             648 C:\windows\system32\svchost.exe                          
+dwm.exe                                   416             612 C:\windows\system32\dwm.exe                              
+svchost.exe                              1028             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              1092             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              1120             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              1128             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              1132             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              1180             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              1304             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              1368             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              1420             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              1468             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              1516             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              1572             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              1592             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              1744             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              1792             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              1800             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              1824             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              1848             648 C:\windows\System32\svchost.exe                          
+Memory Compression                       1944               4                                                          
+svchost.exe                              2016             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              1496             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              1532             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              2152             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              2280             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              2304             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              2388             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              2472             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              2480             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              2536             648 C:\windows\System32\svchost.exe                          
+spoolsv.exe                              2776             648 C:\windows\System32\spoolsv.exe                          
+svchost.exe                              2808             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              2816             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              2896             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              2904             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              2984             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              2988             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              3004             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              3016             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              3036             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              2380             648 C:\windows\System32\svchost.exe                          
+tvnserver.exe                            3084             648 C:\Program Files\TightVNC\tvnserver.exe                  
+svchost.exe                              3104             648 C:\windows\system32\svchost.exe                          
+sshd.exe                                 3124             648 C:\windows\System32\OpenSSH\sshd.exe                     
+svchost.exe                              3176             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              3228             648 C:\windows\System32\svchost.exe                          
+MsMpEng.exe                              3260             648                                                          
+svchost.exe                              3352             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              4516             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              4540             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              4648             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              5080             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              5116             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              3700             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              1004             648 C:\windows\system32\svchost.exe                          
+svchost.exe                               660             648 C:\windows\system32\svchost.exe                          
+GoogleCrashHandler.exe                    372            1160 C:\Program Files (x86)\Google\Update\1.3.36.152\Google...
+GoogleCrashHandler64.exe                 2312            1160 C:\Program Files (x86)\Google\Update\1.3.36.152\Google...
+SgrmBroker.exe                           3236             648                                                          
+svchost.exe                              4552             648 C:\windows\system32\svchost.exe                          
+SearchIndexer.exe                        3900             648 C:\windows\system32\SearchIndexer.exe                    
+svchost.exe                              1164             648                                                          
+svchost.exe                              1660             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              5856             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              6000             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              5548             648 C:\windows\System32\svchost.exe                          
+SecurityHealthService.exe                6064             648                                                          
+svchost.exe                              3660             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              6052             648 C:\windows\system32\svchost.exe                          
+taskhostw.exe                            4296            1468 C:\windows\system32\taskhostw.exe                        
+sihost.exe                               5576            1420 C:\windows\system32\sihost.exe                           
+svchost.exe                              5240             648 C:\windows\System32\svchost.exe                          
+explorer.exe                             2412            5876 C:\windows\Explorer.EXE                                  
+svchost.exe                               204             648 C:\windows\system32\svchost.exe                          
+RuntimeBroker.exe                        4324             820 C:\Windows\System32\RuntimeBroker.exe                    
+SearchApp.exe                            3892             820 C:\windows\SystemApps\Microsoft.Windows.Search_cw5n1h2...
+RuntimeBroker.exe                        6916             820 C:\Windows\System32\RuntimeBroker.exe                    
+SecurityHealthSystray.exe                7024            2412 C:\Windows\System32\SecurityHealthSystray.exe            
+tvnserver.exe                            7144            2412 C:\Program Files\TightVNC\tvnserver.exe                  
+vcxsrv.exe                               3744            2412 C:\Program Files\VcXsrv\vcxsrv.exe                       
+svchost.exe                              2848             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              4160             648 C:\windows\System32\svchost.exe                          
+svchost.exe                              5868             648 C:\windows\system32\svchost.exe                          
+svchost.exe                              6680             648 C:\windows\system32\svchost.exe                          
+dasHost.exe                              1732            6680 C:\windows\system32\dashost.exe                          
+TextInputHost.exe                        1736             820 C:\windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n...
+dllhost.exe                              5164             820 C:\windows\system32\DllHost.exe                          
+svchost.exe                              2040             648 C:\windows\system32\svchost.exe                          
+ShellExperienceHost.exe                  4708             820 C:\windows\SystemApps\ShellExperienceHost_cw5n1h2txyew...
+RuntimeBroker.exe                        1404             820 C:\Windows\System32\RuntimeBroker.exe                    
+LockApp.exe                              4120             820 C:\windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\...
+RuntimeBroker.exe                        1928             820 C:\Windows\System32\RuntimeBroker.exe                    
+svchost.exe                               420             648 C:\windows\system32\svchost.exe                          
+UserOOBEBroker.exe                       6940             820 C:\Windows\System32\oobe\UserOOBEBroker.exe              
+svchost.exe                              6524             648 C:\windows\system32\svchost.exe                          
+MoUsoCoreWorker.exe                      2548             820 C:\Windows\System32\mousocoreworker.exe                  
+taskhostw.exe                            2052            1468 C:\windows\system32\taskhostw.exe                        
+csrss.exe                                7372            1912                                                          
+winlogon.exe                             6628            1912 C:\windows\system32\winlogon.exe                         
+LogonUI.exe                              5792            6628 C:\windows\system32\LogonUI.exe                          
+dwm.exe                                  6740            6628 C:\windows\system32\dwm.exe                              
+fontdrvhost.exe                          1484            6628 C:\windows\system32\fontdrvhost.exe                      
+rdpclip.exe                              5484            1028 C:\windows\System32\rdpclip.exe                          
+ctfmon.exe                               4476            5240 C:\windows\system32\ctfmon.exe                           
+ApplicationFrameHost.exe                 4644             820 C:\windows\system32\ApplicationFrameHost.exe             
+powershell_ise.exe                       7896            2412 C:\windows\system32\WindowsPowerShell\v1.0\PowerShell_...
+dllhost.exe                              5964             820 C:\windows\system32\DllHost.exe                          
+RuntimeBroker.exe                        8756             820 C:\Windows\System32\RuntimeBroker.exe                    
+MpCopyAccelerator.exe                    6784            3260                                                          
+StartMenuExperienceHost.exe              8372             820 C:\windows\SystemApps\Microsoft.Windows.StartMenuExper...
+WUDFHost.exe                             6656             648 C:\Windows\System32\WUDFHost.exe                         
+agent_ovpnconnect_1647517251935.exe      8052             648 C:\Program Files\OpenVPN Connect\agent_ovpnconnect_164...
+ovpnhelper_service.exe                   6484             648 C:\Program Files\OpenVPN Connect\ovpnhelper_service.exe  
+OpenVPNConnect.exe                       4384            8784 C:\Program Files\OpenVPN Connect\OpenVPNConnect.exe      
+OpenVPNConnect.exe                       8480            4384 C:\Program Files\OpenVPN Connect\OpenVPNConnect.exe      
+OpenVPNConnect.exe                       9624            4384 C:\Program Files\OpenVPN Connect\OpenVPNConnect.exe      
+OpenVPNConnect.exe                      10520            4384 C:\Program Files\OpenVPN Connect\OpenVPNConnect.exe      
+msedge.exe                               9532            8436 C:\Program Files (x86)\Microsoft\Edge\Application\msed...
+msedge.exe                               1704            9532 C:\Program Files (x86)\Microsoft\Edge\Application\msed...
+msedge.exe                              10480            9532 C:\Program Files (x86)\Microsoft\Edge\Application\msed...
+msedge.exe                               8280            9532 C:\Program Files (x86)\Microsoft\Edge\Application\msed...
+msedge.exe                               8684            9532 C:\Program Files (x86)\Microsoft\Edge\Application\msed...
+NisSrv.exe                               8528             648                                                          
+powershell.exe                           4252            2412 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+conhost.exe                              4860            4252 C:\windows\system32\conhost.exe                          
+Code.exe                                  792            2412 C:\Program Files\Microsoft VS Code\Code.exe              
+Code.exe                                 7632             792 C:\Program Files\Microsoft VS Code\Code.exe              
+Code.exe                                 9728             792 C:\Program Files\Microsoft VS Code\Code.exe              
+Code.exe                                 6400             792 C:\Program Files\Microsoft VS Code\Code.exe              
+Code.exe                                 2180             792 C:\Program Files\Microsoft VS Code\Code.exe              
+Code.exe                                 3192             792 C:\Program Files\Microsoft VS Code\Code.exe              
+Code.exe                                  956             792 C:\Program Files\Microsoft VS Code\Code.exe              
+Code.exe                                10412            3192 C:\Program Files\Microsoft VS Code\Code.exe              
+Code.exe                                 6816            3192 C:\Program Files\Microsoft VS Code\Code.exe              
+powershell.exe                           4496            2412 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+conhost.exe                              1936            4496 C:\windows\system32\conhost.exe                          
+conhost.exe                              1440           10412 \\?\C:\windows\system32\conhost.exe                      
+pwsh.exe                                 8000           10412 C:\Program Files\PowerShell\7\pwsh.exe                   
+pwsh.exe                                10740            2412 C:\Program Files\PowerShell\7\pwsh.exe                   
+conhost.exe                              6312           10740 C:\windows\system32\conhost.exe                          
+conhost.exe                              3580           10412 \\?\C:\windows\system32\conhost.exe                      
+cmd.exe                                  7644           10412 C:\windows\System32\cmd.exe                              
+powershell.exe                           7008            7644 C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe
+svchost.exe                              5384             648 C:\windows\System32\svchost.exe                          
+powershell.exe                           8288            2412 C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+conhost.exe                              3596            8288 C:\windows\system32\conhost.exe                          
+svchost.exe                              2120             648 C:\windows\system32\svchost.exe                          
+msedge.exe                               9092            9532 C:\Program Files (x86)\Microsoft\Edge\Application\msed...
+msedge.exe                               9756            9532 C:\Program Files (x86)\Microsoft\Edge\Application\msed...
+msedge.exe                               5456            9532 C:\Program Files (x86)\Microsoft\Edge\Application\msed...
+msedge.exe                              10400            9532 C:\Program Files (x86)\Microsoft\Edge\Application\msed...
+svchost.exe                              8728             648 C:\windows\System32\svchost.exe                          
+powershell.exe                           5216            7008 C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe
+WmiPrvSE.exe                             3884             820 C:\windows\system32\wbem\wmiprvse.exe                    
+WmiPrvSE.exe                             2188             820 C:\windows\system32\wbem\wmiprvse.exe                    
+svchost.exe                             11016             648 C:\windows\System32\svchost.exe                          
+TrustedInstaller.exe                     5256             648 C:\windows\servicing\TrustedInstaller.exe                
+TiWorker.exe                             8540             820 C:\windows\winsxs\amd64_microsoft-windows-servicingsta...
+
+
+
+name                                     state   processid pathname                                                    
+----                                     -----   --------- --------                                                    
+AJRouter                                 Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+ALG                                      Stopped         0 C:\windows\System32\alg.exe                                 
+AppIDSvc                                 Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+Appinfo                                  Running      2848 C:\windows\system32\svchost.exe -k netsvcs -p               
+AppMgmt                                  Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+AppReadiness                             Stopped         0 C:\windows\System32\svchost.exe -k AppReadiness -p          
+AppVClient                               Stopped         0 C:\windows\system32\AppVClient.exe                          
+AppXSvc                                  Stopped         0 C:\windows\system32\svchost.exe -k wsappx -p                
+AssignedAccessManagerSvc                 Stopped         0 C:\windows\system32\svchost.exe -k AssignedAccessManagerSvc 
+AudioEndpointBuilder                     Running      1496 C:\windows\System32\svchost.exe -k LocalSystemNetworkRest...
+Audiosrv                                 Running      2280 C:\windows\System32\svchost.exe -k LocalServiceNetworkRes...
+autotimesvc                              Stopped         0 C:\windows\system32\svchost.exe -k autoTimeSvc              
+AxInstSV                                 Stopped         0 C:\windows\system32\svchost.exe -k AxInstSVGroup            
+BDESVC                                   Stopped         0 C:\windows\System32\svchost.exe -k netsvcs -p               
+BFE                                      Running      2816 C:\windows\system32\svchost.exe -k LocalServiceNoNetworkF...
+BITS                                     Stopped         0 C:\windows\System32\svchost.exe -k netsvcs -p               
+BrokerInfrastructure                     Running       820 C:\windows\system32\svchost.exe -k DcomLaunch -p            
+BTAGService                              Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+BthAvctpSvc                              Running       420 C:\windows\system32\svchost.exe -k LocalService -p          
+bthserv                                  Stopped         0 C:\windows\system32\svchost.exe -k LocalService -p          
+camsvc                                   Stopped         0 C:\windows\system32\svchost.exe -k appmodel -p              
+CDPSvc                                   Running       660 C:\windows\system32\svchost.exe -k LocalService -p          
+CertPropSvc                              Running      2388 C:\windows\system32\svchost.exe -k netsvcs                  
+ClipSVC                                  Stopped         0 C:\windows\System32\svchost.exe -k wsappx -p                
+cloudbase-init                           Stopped         0 "C:\Program Files\Cloudbase Solutions\Cloudbase-Init\bin\...
+cloudidsvc                               Stopped         0 C:\windows\system32\svchost.exe -k CloudIdServiceGroup -p   
+COMSysApp                                Stopped         0 C:\windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88...
+CoreMessagingRegistrar                   Running      1128 C:\windows\system32\svchost.exe -k LocalServiceNoNetwork -p 
+CryptSvc                                 Running      3004 C:\windows\system32\svchost.exe -k NetworkService -p        
+CscService                               Stopped         0 C:\windows\System32\svchost.exe -k LocalSystemNetworkRest...
+DcomLaunch                               Running       820 C:\windows\system32\svchost.exe -k DcomLaunch -p            
+dcsvc                                    Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+defragsvc                                Stopped         0 C:\windows\system32\svchost.exe -k defragsvc                
+DeviceAssociationService                 Running      6680 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+DeviceInstall                            Stopped         0 C:\windows\system32\svchost.exe -k DcomLaunch -p            
+DevQueryBroker                           Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+Dhcp                                     Running      1572 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+diagnosticshub.standardcollector.service Stopped         0 C:\windows\system32\DiagSvcs\DiagnosticsHub.StandardColle...
+diagsvc                                  Stopped         0 C:\windows\System32\svchost.exe -k diagnostics              
+DiagTrack                                Running      2984 C:\windows\System32\svchost.exe -k utcsvc -p                
+DialogBlockingService                    Stopped         0 C:\windows\system32\svchost.exe -k DialogBlockingService    
+DispBrokerDesktopSvc                     Running      1592 C:\windows\system32\svchost.exe -k LocalService -p          
+DisplayEnhancementService                Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+DmEnrollmentSvc                          Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+dmwappushservice                         Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+Dnscache                                 Running      2304 C:\windows\system32\svchost.exe -k NetworkService -p        
+DoSvc                                    Stopped         0 C:\windows\System32\svchost.exe -k NetworkService -p        
+dot3svc                                  Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+DPS                                      Running      3036 C:\windows\System32\svchost.exe -k LocalServiceNoNetwork -p 
+DsmSvc                                   Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+DsSvc                                    Running      5548 C:\windows\System32\svchost.exe -k LocalSystemNetworkRest...
+DusmSvc                                  Running      2472 C:\windows\System32\svchost.exe -k LocalServiceNetworkRes...
+Eaphost                                  Stopped         0 C:\windows\System32\svchost.exe -k netsvcs -p               
+edgeupdate                               Stopped         0 "C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdg...
+edgeupdatem                              Stopped         0 "C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdg...
+EFS                                      Stopped         0 C:\windows\System32\lsass.exe                               
+embeddedmode                             Stopped         0 C:\windows\System32\svchost.exe -k LocalSystemNetworkRest...
+EntAppSvc                                Stopped         0 C:\windows\system32\svchost.exe -k appmodel -p              
+EventLog                                 Running      1368 C:\windows\System32\svchost.exe -k LocalServiceNetworkRes...
+EventSystem                              Running      1824 C:\windows\system32\svchost.exe -k LocalService -p          
+Fax                                      Stopped         0 C:\windows\system32\fxssvc.exe                              
+fdPHost                                  Stopped         0 C:\windows\system32\svchost.exe -k LocalService -p          
+FDResPub                                 Running      5868 C:\windows\system32\svchost.exe -k LocalServiceAndNoImper...
+fhsvc                                    Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+FontCache                                Running      1532 C:\windows\system32\svchost.exe -k LocalService -p          
+FrameServer                              Stopped         0 C:\windows\System32\svchost.exe -k Camera                   
+GoogleChromeElevationService             Stopped         0 "C:\Program Files\Google\Chrome\Application\109.0.5414.12...
+gpsvc                                    Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+GraphicsPerfSvc                          Stopped         0 C:\windows\System32\svchost.exe -k GraphicsPerfSvcGroup     
+gupdate                                  Stopped         0 "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe" /svc
+gupdatem                                 Stopped         0 "C:\Program Files (x86)\Google\Update\GoogleUpdate.exe" /...
+hidserv                                  Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+HvHost                                   Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+icssvc                                   Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+IKEEXT                                   Running      2896 C:\windows\system32\svchost.exe -k netsvcs -p               
+InstallService                           Running      1660 C:\windows\System32\svchost.exe -k netsvcs -p               
+iphlpsvc                                 Running      3228 C:\windows\System32\svchost.exe -k NetSvcs -p               
+IpxlatCfgSvc                             Stopped         0 C:\windows\System32\svchost.exe -k LocalSystemNetworkRest...
+KeyIso                                   Running       680 C:\windows\system32\lsass.exe                               
+KtmRm                                    Stopped         0 C:\windows\System32\svchost.exe -k NetworkServiceAndNoImp...
+LanmanServer                             Running      3352 C:\windows\system32\svchost.exe -k netsvcs -p               
+LanmanWorkstation                        Running      2808 C:\windows\System32\svchost.exe -k NetworkService -p        
+lfsvc                                    Running      6524 C:\windows\system32\svchost.exe -k netsvcs -p               
+LicenseManager                           Running      4540 C:\windows\System32\svchost.exe -k LocalService -p          
+lltdsvc                                  Stopped         0 C:\windows\System32\svchost.exe -k LocalService -p          
+lmhosts                                  Running      1120 C:\windows\System32\svchost.exe -k LocalServiceNetworkRes...
+LSM                                      Running       992 C:\windows\system32\svchost.exe -k DcomLaunch -p            
+LxpSvc                                   Stopped         0 C:\windows\system32\svchost.exe -k netsvcs                  
+MapsBroker                               Stopped         0 C:\windows\System32\svchost.exe -k NetworkService -p        
+McpManagementService                     Stopped         0 C:\windows\system32\svchost.exe -k McpManagementServiceGroup
+MicrosoftEdgeElevationService            Stopped         0 "C:\Program Files (x86)\Microsoft\Edge\Application\110.0....
+MixedRealityOpenXRSvc                    Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+mpssvc                                   Running      2816 C:\windows\system32\svchost.exe -k LocalServiceNoNetworkF...
+MSDTC                                    Stopped         0 C:\windows\System32\msdtc.exe                               
+MSiSCSI                                  Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+msiserver                                Stopped         0 C:\windows\system32\msiexec.exe /V                          
+MsKeyboardFilter                         Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+NaturalAuthentication                    Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+NcaSvc                                   Stopped         0 C:\windows\System32\svchost.exe -k NetSvcs -p               
+NcbService                               Running      1092 C:\windows\System32\svchost.exe -k LocalSystemNetworkRest...
+NcdAutoSetup                             Running      4160 C:\windows\System32\svchost.exe -k LocalServiceNoNetwork -p 
+Netlogon                                 Stopped         0 C:\windows\system32\lsass.exe                               
+Netman                                   Stopped         0 C:\windows\System32\svchost.exe -k LocalSystemNetworkRest...
+netprofm                                 Running      1848 C:\windows\System32\svchost.exe -k LocalService -p          
+NetSetupSvc                              Running     11016 C:\windows\System32\svchost.exe -k netsvcs -p               
+NetTcpPortSharing                        Stopped         0 C:\windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost...
+NgcCtnrSvc                               Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+NgcSvc                                   Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+NlaSvc                                   Running      1744 C:\windows\System32\svchost.exe -k NetworkService -p        
+nsi                                      Running      1516 C:\windows\system32\svchost.exe -k LocalService -p          
+p2pimsvc                                 Stopped         0 C:\windows\System32\svchost.exe -k LocalServicePeerNet      
+p2psvc                                   Stopped         0 C:\windows\System32\svchost.exe -k LocalServicePeerNet      
+PcaSvc                                   Running      6000 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+PeerDistSvc                              Stopped         0 C:\windows\System32\svchost.exe -k PeerDist                 
+perceptionsimulation                     Stopped         0 C:\windows\system32\PerceptionSimulation\PerceptionSimula...
+PerfHost                                 Stopped         0 C:\windows\SysWow64\perfhost.exe                            
+PhoneSvc                                 Stopped         0 C:\windows\system32\svchost.exe -k LocalService -p          
+pla                                      Stopped         0 C:\windows\System32\svchost.exe -k LocalServiceNoNetwork -p 
+PlugPlay                                 Running       820 C:\windows\system32\svchost.exe -k DcomLaunch -p            
+PNRPAutoReg                              Stopped         0 C:\windows\System32\svchost.exe -k LocalServicePeerNet      
+PNRPsvc                                  Stopped         0 C:\windows\System32\svchost.exe -k LocalServicePeerNet      
+PolicyAgent                              Running      2904 C:\windows\system32\svchost.exe -k NetworkServiceNetworkR...
+Power                                    Running       820 C:\windows\system32\svchost.exe -k DcomLaunch -p            
+PrintNotify                              Stopped         0 C:\windows\system32\svchost.exe -k print                    
+ProfSvc                                  Running      1304 C:\windows\system32\svchost.exe -k netsvcs -p               
+PushToInstall                            Stopped         0 C:\windows\System32\svchost.exe -k netsvcs -p               
+QWAVE                                    Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceAndNoImper...
+RasAuto                                  Stopped         0 C:\windows\System32\svchost.exe -k netsvcs -p               
+RasMan                                   Stopped         0 C:\windows\System32\svchost.exe -k netsvcs                  
+RemoteAccess                             Stopped         0 C:\windows\System32\svchost.exe -k netsvcs                  
+RemoteRegistry                           Stopped         0 C:\windows\system32\svchost.exe -k localService -p          
+RetailDemo                               Stopped         0 C:\windows\System32\svchost.exe -k rdxgroup                 
+RmSvc                                    Running      4648 C:\windows\System32\svchost.exe -k LocalServiceNetworkRes...
+RpcEptMapper                             Running       936 C:\windows\system32\svchost.exe -k RPCSS -p                 
+RpcLocator                               Stopped         0 C:\windows\system32\locator.exe                             
+RpcSs                                    Running       936 C:\windows\system32\svchost.exe -k rpcss -p                 
+SamSs                                    Running       680 C:\windows\system32\lsass.exe                               
+SCardSvr                                 Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceAndNoImper...
+ScDeviceEnum                             Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+Schedule                                 Running      1468 C:\windows\system32\svchost.exe -k netsvcs -p               
+SCPolicySvc                              Stopped         0 C:\windows\system32\svchost.exe -k netsvcs                  
+SDRSVC                                   Stopped         0 C:\windows\system32\svchost.exe -k SDRSVC                   
+seclogon                                 Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+SecurityHealthService                    Running      6064 C:\windows\system32\SecurityHealthService.exe               
+SEMgrSvc                                 Stopped         0 C:\windows\system32\svchost.exe -k LocalService -p          
+SENS                                     Running      2016 C:\windows\system32\svchost.exe -k netsvcs -p               
+Sense                                    Stopped         0 "C:\Program Files\Windows Defender Advanced Threat Protec...
+SensorDataService                        Stopped         0 C:\windows\System32\SensorDataService.exe                   
+SensorService                            Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+SensrSvc                                 Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceAndNoImper...
+SessionEnv                               Running      2988 C:\windows\System32\svchost.exe -k netsvcs -p               
+SgrmBroker                               Running      3236 C:\windows\system32\SgrmBroker.exe                          
+SharedAccess                             Stopped         0 C:\windows\System32\svchost.exe -k netsvcs -p               
+SharedRealitySvc                         Stopped         0 C:\windows\system32\svchost.exe -k LocalService -p          
+ShellHWDetection                         Running      2536 C:\windows\System32\svchost.exe -k netsvcs -p               
+shpamsvc                                 Stopped         0 C:\windows\System32\svchost.exe -k netsvcs -p               
+smphost                                  Running      8728 C:\windows\System32\svchost.exe -k smphost                  
+SmsRouter                                Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+SNMPTRAP                                 Stopped         0 C:\windows\System32\snmptrap.exe                            
+spectrum                                 Stopped         0 C:\windows\system32\spectrum.exe                            
+Spooler                                  Running      2776 C:\windows\System32\spoolsv.exe                             
+sppsvc                                   Stopped         0 C:\windows\system32\sppsvc.exe                              
+SSDPSRV                                  Running      1004 C:\windows\system32\svchost.exe -k LocalServiceAndNoImper...
+ssh-agent                                Stopped         0 C:\windows\System32\OpenSSH\ssh-agent.exe                   
+sshd                                     Running      3124 C:\windows\System32\OpenSSH\sshd.exe                        
+SstpSvc                                  Stopped         0 C:\windows\system32\svchost.exe -k LocalService -p          
+StateRepository                          Running      5116 C:\windows\system32\svchost.exe -k appmodel -p              
+stisvc                                   Stopped         0 C:\windows\system32\svchost.exe -k imgsvc                   
+StorSvc                                  Running      3700 C:\windows\System32\svchost.exe -k LocalSystemNetworkRest...
+svsvc                                    Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+swprv                                    Stopped         0 C:\windows\System32\svchost.exe -k swprv                    
+SysMain                                  Running      1800 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+SystemEventsBroker                       Running       820 C:\windows\system32\svchost.exe -k DcomLaunch -p            
+TabletInputService                       Running      5240 C:\windows\System32\svchost.exe -k LocalSystemNetworkRest...
+TapiSrv                                  Stopped         0 C:\windows\System32\svchost.exe -k NetworkService -p        
+TermService                              Running      1028 C:\windows\System32\svchost.exe -k NetworkService           
+Themes                                   Running      1792 C:\windows\System32\svchost.exe -k netsvcs -p               
+TieringEngineService                     Stopped         0 C:\windows\system32\TieringEngineService.exe                
+TimeBrokerSvc                            Running      1180 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+TokenBroker                              Running      5080 C:\windows\system32\svchost.exe -k netsvcs -p               
+TrkWks                                   Running      2380 C:\windows\System32\svchost.exe -k LocalSystemNetworkRest...
+TroubleshootingSvc                       Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+TrustedInstaller                         Running      5256 C:\windows\servicing\TrustedInstaller.exe                   
+tvnserver                                Running      3084 "C:\Program Files\TightVNC\tvnserver.exe" -service          
+tzautoupdate                             Stopped         0 C:\windows\system32\svchost.exe -k LocalService -p          
+UevAgentService                          Stopped         0 C:\windows\system32\AgentService.exe                        
+uhssvc                                   Stopped         0 "C:\Program Files\Microsoft Update Health Tools\uhssvc.exe" 
+UmRdpService                             Running      2152 C:\windows\System32\svchost.exe -k LocalSystemNetworkRest...
+upnphost                                 Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceAndNoImper...
+UserManager                              Running      1420 C:\windows\system32\svchost.exe -k netsvcs -p               
+UsoSvc                                   Running      4552 C:\windows\system32\svchost.exe -k netsvcs -p               
+VacSvc                                   Stopped         0 C:\windows\System32\svchost.exe -k LocalServiceNetworkRes...
+VaultSvc                                 Running       680 C:\windows\system32\lsass.exe                               
+vds                                      Stopped         0 C:\windows\System32\vds.exe                                 
+vmicguestinterface                       Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+vmicheartbeat                            Stopped         0 C:\windows\system32\svchost.exe -k ICService -p             
+vmickvpexchange                          Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+vmicrdv                                  Stopped         0 C:\windows\system32\svchost.exe -k ICService -p             
+vmicshutdown                             Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+vmictimesync                             Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+vmicvmsession                            Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+vmicvss                                  Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+VSS                                      Stopped         0 C:\windows\system32\vssvc.exe                               
+W32Time                                  Running      1132 C:\windows\system32\svchost.exe -k LocalService             
+WaaSMedicSvc                             Stopped         0 C:\windows\system32\svchost.exe -k wusvcs -p                
+WalletService                            Stopped         0 C:\windows\System32\svchost.exe -k appmodel -p              
+WarpJITSvc                               Stopped         0 C:\windows\System32\svchost.exe -k LocalServiceNetworkRes...
+wbengine                                 Stopped         0 "C:\windows\system32\wbengine.exe"                          
+WbioSrvc                                 Running      5856 C:\windows\system32\svchost.exe -k WbioSvcGroup             
+Wcmsvc                                   Running      2480 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+wcncsvc                                  Running      5384 C:\windows\System32\svchost.exe -k LocalServiceAndNoImper...
+WdiServiceHost                           Running      3176 C:\windows\System32\svchost.exe -k LocalService -p          
+WdiSystemHost                            Stopped         0 C:\windows\System32\svchost.exe -k LocalSystemNetworkRest...
+WdNisSvc                                 Running      8528 "C:\ProgramData\Microsoft\Windows Defender\platform\4.18....
+WebClient                                Stopped         0 C:\windows\system32\svchost.exe -k LocalService -p          
+Wecsvc                                   Stopped         0 C:\windows\system32\svchost.exe -k NetworkService -p        
+WEPHOSTSVC                               Stopped         0 C:\windows\system32\svchost.exe -k WepHostSvcGroup          
+wercplsupport                            Stopped         0 C:\windows\System32\svchost.exe -k netsvcs -p               
+WerSvc                                   Stopped         0 C:\windows\System32\svchost.exe -k WerSvcGroup              
+WFDSConMgrSvc                            Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+WiaRpc                                   Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+WinDefend                                Running      3260 "C:\ProgramData\Microsoft\Windows Defender\platform\4.18....
+WinHttpAutoProxySvc                      Running      2120 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+Winmgmt                                  Running      3016 C:\windows\system32\svchost.exe -k netsvcs -p               
+WinRM                                    Running      4516 C:\windows\System32\svchost.exe -k NetworkService -p        
+wisvc                                    Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+WlanSvc                                  Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+wlidsvc                                  Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+wlpasvc                                  Stopped         0 C:\windows\system32\svchost.exe -k LocalServiceNetworkRes...
+WManSvc                                  Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+wmiApSrv                                 Stopped         0 C:\windows\system32\wbem\WmiApSrv.exe                       
+WMPNetworkSvc                            Stopped         0 "C:\Program Files\Windows Media Player\wmpnetwk.exe"        
+workfolderssvc                           Stopped         0 C:\windows\System32\svchost.exe -k LocalService -p          
+WpcMonSvc                                Stopped         0 C:\windows\system32\svchost.exe -k LocalService             
+WPDBusEnum                               Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+WpnService                               Running      3104 C:\windows\system32\svchost.exe -k netsvcs -p               
+wscsvc                                   Running      1164 C:\windows\System32\svchost.exe -k LocalServiceNetworkRes...
+WSearch                                  Running      3900 C:\windows\system32\SearchIndexer.exe /Embedding            
+wuauserv                                 Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+WwanSvc                                  Stopped         0 C:\windows\system32\svchost.exe -k LocalSystemNetworkRest...
+XblAuthManager                           Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+XblGameSave                              Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+XboxGipSvc                               Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+XboxNetApiSvc                            Stopped         0 C:\windows\system32\svchost.exe -k netsvcs -p               
+AarSvc_a95497                            Stopped         0 C:\windows\system32\svchost.exe -k AarSvcGroup -p           
+BcastDVRUserService_a95497               Stopped         0 C:\windows\system32\svchost.exe -k BcastDVRUserService      
+BluetoothUserService_a95497              Stopped         0 C:\windows\system32\svchost.exe -k BthAppGroup -p           
+CaptureService_a95497                    Stopped         0 C:\windows\system32\svchost.exe -k LocalService -p          
+cbdhsvc_a95497                           Running       204 C:\windows\system32\svchost.exe -k ClipboardSvcGroup -p     
+CDPUserSvc_a95497                        Running      3660 C:\windows\system32\svchost.exe -k UnistackSvcGroup         
+ConsentUxUserSvc_a95497                  Stopped         0 C:\windows\system32\svchost.exe -k DevicesFlow              
+CredentialEnrollmentManagerUserSvc_a9... Stopped         0 C:\windows\system32\CredentialEnrollmentManager.exe         
+DeviceAssociationBrokerSvc_a95497        Stopped         0 C:\windows\system32\svchost.exe -k DevicesFlow -p           
+DevicePickerUserSvc_a95497               Stopped         0 C:\windows\system32\svchost.exe -k DevicesFlow              
+DevicesFlowUserSvc_a95497                Stopped         0 C:\windows\system32\svchost.exe -k DevicesFlow              
+MessagingService_a95497                  Stopped         0 C:\windows\system32\svchost.exe -k UnistackSvcGroup         
+OneSyncSvc_a95497                        Running      2040 C:\windows\system32\svchost.exe -k UnistackSvcGroup         
+PimIndexMaintenanceSvc_a95497            Stopped         0 C:\windows\system32\svchost.exe -k UnistackSvcGroup         
+PrintWorkflowUserSvc_a95497              Stopped         0 C:\windows\system32\svchost.exe -k PrintWorkflow            
+UdkUserSvc_a95497                        Stopped         0 C:\windows\system32\svchost.exe -k UdkSvcGroup              
+UnistoreSvc_a95497                       Stopped         0 C:\windows\System32\svchost.exe -k UnistackSvcGroup         
+UserDataSvc_a95497                       Stopped         0 C:\windows\system32\svchost.exe -k UnistackSvcGroup         
+WpnUserService_a95497                    Running      6052 C:\windows\system32\svchost.exe -k UnistackSvcGroup         
+agent_ovpnconnect                        Running      8052 "C:\Program Files\OpenVPN Connect\agent_ovpnconnect_16475...
+ovpnhelper_service                       Running      6484 "C:\Program Files\OpenVPN Connect\ovpnhelper_service.exe"   
+
+
+
+LocalAddress                        LocalPort RemoteAddress                       RemotePort State       AppliedSetting
+------------                        --------- -------------                       ---------- -----       --------------
+::                                  49672     ::                                  0          Listen                    
+::                                  49671     ::                                  0          Listen                    
+::                                  49670     ::                                  0          Listen                    
+::                                  49669     ::                                  0          Listen                    
+::                                  49667     ::                                  0          Listen                    
+::                                  49666     ::                                  0          Listen                    
+::                                  49665     ::                                  0          Listen                    
+::                                  49664     ::                                  0          Listen                    
+::                                  47001     ::                                  0          Listen                    
+::                                  6000      ::                                  0          Listen                    
+::                                  5986      ::                                  0          Listen                    
+::                                  5985      ::                                  0          Listen                    
+::                                  5357      ::                                  0          Listen                    
+::                                  3389      ::                                  0          Listen                    
+::                                  445       ::                                  0          Listen                    
+::                                  135       ::                                  0          Listen                    
+::                                  22        ::                                  0          Listen                    
+0.0.0.0                             65249     0.0.0.0                             0          Bound                     
+0.0.0.0                             50374     0.0.0.0                             0          Bound                     
+0.0.0.0                             50373     0.0.0.0                             0          Bound                     
+0.0.0.0                             50372     0.0.0.0                             0          Bound                     
+0.0.0.0                             49764     0.0.0.0                             0          Bound                     
+0.0.0.0                             49763     0.0.0.0                             0          Bound                     
+0.0.0.0                             49335     0.0.0.0                             0          Bound                     
+192.168.65.10                       65249     20.25.241.18                        443        Established Internet      
+127.0.0.1                           50374     127.0.0.1                           6000       Established Internet      
+127.0.0.1                           50373     127.0.0.1                           6000       Established Internet      
+127.0.0.1                           50372     127.0.0.1                           6000       Established Internet      
+192.168.65.10                       49764     45.32.165.199                       443        Established Internet      
+192.168.65.10                       49763     45.32.165.199                       443        Established Internet      
+0.0.0.0                             49672     0.0.0.0                             0          Listen                    
+0.0.0.0                             49671     0.0.0.0                             0          Listen                    
+0.0.0.0                             49670     0.0.0.0                             0          Listen                    
+0.0.0.0                             49669     0.0.0.0                             0          Listen                    
+0.0.0.0                             49667     0.0.0.0                             0          Listen                    
+0.0.0.0                             49666     0.0.0.0                             0          Listen                    
+0.0.0.0                             49665     0.0.0.0                             0          Listen                    
+0.0.0.0                             49664     0.0.0.0                             0          Listen                    
+192.168.65.10                       49335     52.98.214.2                         443        Established Internet      
+127.0.0.1                           6000      127.0.0.1                           50372      Established Internet      
+127.0.0.1                           6000      127.0.0.1                           50374      Established Internet      
+127.0.0.1                           6000      127.0.0.1                           50373      Established Internet      
+0.0.0.0                             6000      0.0.0.0                             0          Listen                    
+0.0.0.0                             5900      0.0.0.0                             0          Listen                    
+0.0.0.0                             5800      0.0.0.0                             0          Listen                    
+0.0.0.0                             5040      0.0.0.0                             0          Listen                    
+192.168.65.10                       3389      192.168.242.126                     47578      Established Internet      
+0.0.0.0                             3389      0.0.0.0                             0          Listen                    
+192.168.65.10                       139       0.0.0.0                             0          Listen                    
+0.0.0.0                             135       0.0.0.0                             0          Listen                    
+0.0.0.0                             22        0.0.0.0                             0          Listen                    
+
+Caption                                          : 
+Description                                      : 
+ElementName                                      : 
+InstanceID                                       : {8F0A55A0-D6FE-4789-AE69-917A9B82EE2B}
+CommunicationStatus                              : 
+DetailedStatus                                   : 
+HealthState                                      : 
+InstallDate                                      : 
+Name                                             : tap5eaa33dd-9d
+OperatingStatus                                  : 
+OperationalStatus                                : 
+PrimaryStatus                                    : 
+Status                                           : Up
+StatusDescriptions                               : 
+AvailableRequestedStates                         : 
+EnabledDefault                                   : 2
+EnabledState                                     : 5
+OtherEnabledState                                : 
+RequestedState                                   : 12
+TimeOfLastStateChange                            : 
+TransitioningToState                             : 12
+AdditionalAvailability                           : 
+Availability                                     : 
+CreationClassName                                : MSFT_NetAdapter
+DeviceID                                         : {8F0A55A0-D6FE-4789-AE69-917A9B82EE2B}
+ErrorCleared                                     : 
+ErrorDescription                                 : 
+IdentifyingDescriptions                          : 
+LastErrorCode                                    : 
+MaxQuiesceTime                                   : 
+OtherIdentifyingInfo                             : 
+PowerManagementCapabilities                      : 
+PowerManagementSupported                         : 
+PowerOnHours                                     : 
+StatusInfo                                       : 
+SystemCreationClassName                          : CIM_NetworkPort
+SystemName                                       : win-ops
+TotalPowerOnHours                                : 
+MaxSpeed                                         : 
+OtherPortType                                    : 
+PortType                                         : 
+RequestedSpeed                                   : 
+Speed                                            : 100000000000
+UsageRestriction                                 : 
+ActiveMaximumTransmissionUnit                    : 1450
+AutoSense                                        : 
+FullDuplex                                       : True
+LinkTechnology                                   : 
+NetworkAddresses                                 : {FA163EB62D3C}
+OtherLinkTechnology                              : 
+OtherNetworkPortType                             : 
+PermanentAddress                                 : FA163EB62D3C
+PortNumber                                       : 0
+SupportedMaximumTransmissionUnit                 : 
+AdminLocked                                      : False
+ComponentID                                      : PCI\VEN_1AF4&DEV_1000&SUBSYS_00011AF4&REV_00
+ConnectorPresent                                 : True
+DeviceName                                       : \Device\{8F0A55A0-D6FE-4789-AE69-917A9B82EE2B}
+DeviceWakeUpEnable                               : False
+DriverDate                                       : 2019-04-12
+DriverDateData                                   : 131995008000000000
+DriverDescription                                : Red Hat VirtIO Ethernet Adapter
+DriverMajorNdisVersion                           : 6
+DriverMinorNdisVersion                           : 30
+DriverName                                       : \SystemRoot\System32\drivers\netkvm.sys
+DriverProvider                                   : Red Hat, Inc.
+DriverVersionString                              : 100.77.104.17100
+EndPointInterface                                : False
+HardwareInterface                                : True
+Hidden                                           : False
+HigherLayerInterfaceIndices                      : {7}
+IMFilter                                         : False
+InterfaceAdminStatus                             : 1
+InterfaceDescription                             : Red Hat VirtIO Ethernet Adapter
+InterfaceGuid                                    : {8F0A55A0-D6FE-4789-AE69-917A9B82EE2B}
+InterfaceIndex                                   : 4
+InterfaceName                                    : ethernet_32769
+InterfaceOperationalStatus                       : 1
+InterfaceType                                    : 6
+iSCSIInterface                                   : False
+LowerLayerInterfaceIndices                       : 
+MajorDriverVersion                               : 104
+MediaConnectState                                : 1
+MediaDuplexState                                 : 2
+MinorDriverVersion                               : 204
+MtuSize                                          : 1450
+NdisMedium                                       : 0
+NdisPhysicalMedium                               : 0
+NetLuid                                          : 1689399632855040
+NetLuidIndex                                     : 32769
+NotUserRemovable                                 : False
+OperationalStatusDownDefaultPortNotAuthenticated : False
+OperationalStatusDownInterfacePaused             : False
+OperationalStatusDownLowPowerState               : False
+OperationalStatusDownMediaDisconnected           : False
+PnPDeviceID                                      : PCI\VEN_1AF4&DEV_1000&SUBSYS_00011AF4&REV_00\3&13c0b0c5&0&18
+PromiscuousMode                                  : False
+ReceiveLinkSpeed                                 : 100000000000
+State                                            : 2
+TransmitLinkSpeed                                : 100000000000
+Virtual                                          : False
+VlanID                                           : 0
+WdmInterface                                     : False
+PSComputerName                                   : 
+MacAddress                                       : FA-16-3E-B6-2D-3C
+LinkSpeed                                        : 100 Gbps
+MediaType                                        : 802.3
+PhysicalMediaType                                : Unspecified
+AdminStatus                                      : Up
+MediaConnectionState                             : Connected
+DriverInformation                                : Driver Date 2019-04-12 Version 100.77.104.17100 NDIS 6.30
+DriverFileName                                   : netkvm.sys
+NdisVersion                                      : 6.30
+ifOperStatus                                     : Up
+ifAlias                                          : tap5eaa33dd-9d
+InterfaceAlias                                   : tap5eaa33dd-9d
+ifIndex                                          : 4
+ifDesc                                           : Red Hat VirtIO Ethernet Adapter
+ifName                                           : ethernet_32769
+DriverVersion                                    : 100.77.104.17100
+LinkLayerAddress                                 : FA-16-3E-B6-2D-3C
+
+
+Caption                                          : 
+Description                                      : 
+ElementName                                      : 
+InstanceID                                       : {1B5D3756-8512-4C3D-9763-9F6D2DF1DBFC}
+CommunicationStatus                              : 
+DetailedStatus                                   : 
+HealthState                                      : 
+InstallDate                                      : 
+Name                                             : Local Area Connection
+OperatingStatus                                  : 
+OperationalStatus                                : 
+PrimaryStatus                                    : 
+Status                                           : Disconnected
+StatusDescriptions                               : 
+AvailableRequestedStates                         : 
+EnabledDefault                                   : 2
+EnabledState                                     : 5
+OtherEnabledState                                : 
+RequestedState                                   : 12
+TimeOfLastStateChange                            : 
+TransitioningToState                             : 12
+AdditionalAvailability                           : 
+Availability                                     : 
+CreationClassName                                : MSFT_NetAdapter
+DeviceID                                         : {1B5D3756-8512-4C3D-9763-9F6D2DF1DBFC}
+ErrorCleared                                     : 
+ErrorDescription                                 : 
+IdentifyingDescriptions                          : 
+LastErrorCode                                    : 
+MaxQuiesceTime                                   : 
+OtherIdentifyingInfo                             : 
+PowerManagementCapabilities                      : 
+PowerManagementSupported                         : 
+PowerOnHours                                     : 
+StatusInfo                                       : 
+SystemCreationClassName                          : CIM_NetworkPort
+SystemName                                       : win-ops
+TotalPowerOnHours                                : 
+MaxSpeed                                         : 
+OtherPortType                                    : 
+PortType                                         : 
+RequestedSpeed                                   : 
+Speed                                            : 1000000000
+UsageRestriction                                 : 
+ActiveMaximumTransmissionUnit                    : 1500
+AutoSense                                        : 
+FullDuplex                                       : True
+LinkTechnology                                   : 
+NetworkAddresses                                 : {00FF1B5D3756}
+OtherLinkTechnology                              : 
+OtherNetworkPortType                             : 
+PermanentAddress                                 : 00FF1B5D3756
+PortNumber                                       : 0
+SupportedMaximumTransmissionUnit                 : 
+AdminLocked                                      : False
+ComponentID                                      : tap_ovpnconnect
+ConnectorPresent                                 : False
+DeviceName                                       : \Device\{1B5D3756-8512-4C3D-9763-9F6D2DF1DBFC}
+DeviceWakeUpEnable                               : False
+DriverDate                                       : 2019-09-27
+DriverDateData                                   : 132140160000000000
+DriverDescription                                : TAP-Windows Adapter V9 for OpenVPN Connect
+DriverMajorNdisVersion                           : 6
+DriverMinorNdisVersion                           : 30
+DriverName                                       : \SystemRoot\System32\drivers\tap_ovpnconnect.sys
+DriverProvider                                   : TAP-Windows Provider V9 for OpenVPN Connect
+DriverVersionString                              : 9.24.2.601
+EndPointInterface                                : False
+HardwareInterface                                : False
+Hidden                                           : False
+HigherLayerInterfaceIndices                      : {11}
+IMFilter                                         : False
+InterfaceAdminStatus                             : 1
+InterfaceDescription                             : TAP-Windows Adapter V9 for OpenVPN Connect
+InterfaceGuid                                    : {1B5D3756-8512-4C3D-9763-9F6D2DF1DBFC}
+InterfaceIndex                                   : 10
+InterfaceName                                    : iftype53_32768
+InterfaceOperationalStatus                       : 2
+InterfaceType                                    : 53
+iSCSIInterface                                   : False
+LowerLayerInterfaceIndices                       : 
+MajorDriverVersion                               : 9
+MediaConnectState                                : 2
+MediaDuplexState                                 : 2
+MinorDriverVersion                               : 24
+MtuSize                                          : 1500
+NdisMedium                                       : 0
+NdisPhysicalMedium                               : 0
+NetLuid                                          : 14918723521478656
+NetLuidIndex                                     : 32768
+NotUserRemovable                                 : False
+OperationalStatusDownDefaultPortNotAuthenticated : False
+OperationalStatusDownInterfacePaused             : False
+OperationalStatusDownLowPowerState               : False
+OperationalStatusDownMediaDisconnected           : True
+PnPDeviceID                                      : ROOT\NET\0000
+PromiscuousMode                                  : False
+ReceiveLinkSpeed                                 : 1000000000
+State                                            : 2
+TransmitLinkSpeed                                : 1000000000
+Virtual                                          : True
+VlanID                                           : 
+WdmInterface                                     : True
+PSComputerName                                   : 
+MacAddress                                       : 00-FF-1B-5D-37-56
+LinkSpeed                                        : 1 Gbps
+MediaType                                        : 802.3
+PhysicalMediaType                                : Unspecified
+AdminStatus                                      : Up
+MediaConnectionState                             : Disconnected
+DriverInformation                                : Driver Date 2019-09-27 Version 9.24.2.601 NDIS 6.30
+DriverFileName                                   : tap_ovpnconnect.sys
+NdisVersion                                      : 6.30
+ifOperStatus                                     : Down
+ifAlias                                          : Local Area Connection
+InterfaceAlias                                   : Local Area Connection
+ifIndex                                          : 10
+ifDesc                                           : TAP-Windows Adapter V9 for OpenVPN Connect
+ifName                                           : iftype53_32768
+DriverVersion                                    : 9.24.2.601
+LinkLayerAddress                                 : 00-FF-1B-5D-37-56
+
+
+
+
+
+WindowsBuildLabEx                                       : 19041.1.amd64fre.vb_release.191206-1406
+WindowsCurrentVersion                                   : 6.3
+WindowsEditionId                                        : Professional
+WindowsInstallationType                                 : Client
+WindowsInstallDateFromRegistry                          : 12/23/2022 1:25:10 PM
+WindowsProductId                                        : 00330-80000-00000-AA707
+WindowsProductName                                      : Windows 10 Pro
+WindowsRegisteredOrganization                           : 
+WindowsRegisteredOwner                                  : 
+WindowsSystemRoot                                       : C:\windows
+WindowsVersion                                          : 2009
+BiosCharacteristics                                     : {3, 42}
+BiosBIOSVersion                                         : {BOCHS  - 1}
+BiosBuildNumber                                         : 
+BiosCaption                                             : Default System BIOS
+BiosCodeSet                                             : 
+BiosCurrentLanguage                                     : 
+BiosDescription                                         : Default System BIOS
+BiosEmbeddedControllerMajorVersion                      : 255
+BiosEmbeddedControllerMinorVersion                      : 255
+BiosFirmwareType                                        : Bios
+BiosIdentificationCode                                  : 
+BiosInstallableLanguages                                : 
+BiosInstallDate                                         : 
+BiosLanguageEdition                                     : 
+BiosListOfLanguages                                     : 
+BiosManufacturer                                        : SeaBIOS
+BiosName                                                : Default System BIOS
+BiosOtherTargetOS                                       : 
+BiosPrimaryBIOS                                         : True
+BiosReleaseDate                                         : 3/31/2014 8:00:00 PM
+BiosSeralNumber                                         : f5a562e5-923a-4e4a-970d-2d626834d6c7
+BiosSMBIOSBIOSVersion                                   : 1.13.0-1ubuntu1.1
+BiosSMBIOSMajorVersion                                  : 2
+BiosSMBIOSMinorVersion                                  : 8
+BiosSMBIOSPresent                                       : True
+BiosSoftwareElementState                                : Running
+BiosStatus                                              : OK
+BiosSystemBiosMajorVersion                              : 0
+BiosSystemBiosMinorVersion                              : 0
+BiosTargetOperatingSystem                               : 0
+BiosVersion                                             : BOCHS  - 1
+CsAdminPasswordStatus                                   : Unknown
+CsAutomaticManagedPagefile                              : True
+CsAutomaticResetBootOption                              : True
+CsAutomaticResetCapability                              : True
+CsBootOptionOnLimit                                     : 
+CsBootOptionOnWatchDog                                  : 
+CsBootROMSupported                                      : True
+CsBootStatus                                            : {0, 0, 0, 127...}
+CsBootupState                                           : Normal boot
+CsCaption                                               : WIN-OPS
+CsChassisBootupState                                    : Safe
+CsChassisSKUNumber                                      : 
+CsCurrentTimeZone                                       : -300
+CsDaylightInEffect                                      : False
+CsDescription                                           : AT/AT COMPATIBLE
+CsDNSHostName                                           : win-ops
+CsDomain                                                : WORKGROUP
+CsDomainRole                                            : StandaloneWorkstation
+CsEnableDaylightSavingsTime                             : True
+CsFrontPanelResetStatus                                 : Unknown
+CsHypervisorPresent                                     : True
+CsInfraredSupported                                     : False
+CsInitialLoadInfo                                       : 
+CsInstallDate                                           : 
+CsKeyboardPasswordStatus                                : Unknown
+CsLastLoadInfo                                          : 
+CsManufacturer                                          : OpenStack Foundation
+CsModel                                                 : OpenStack Nova
+CsName                                                  : WIN-OPS
+CsNetworkAdapters                                       : {tap5eaa33dd-9d, Local Area Connection}
+CsNetworkServerModeEnabled                              : True
+CsNumberOfLogicalProcessors                             : 4
+CsNumberOfProcessors                                    : 2
+CsProcessors                                            : {AMD EPYC Processor (with IBPB), AMD EPYC Processor (with 
+                                                          IBPB)}
+CsOEMStringArray                                        : 
+CsPartOfDomain                                          : False
+CsPauseAfterReset                                       : -1
+CsPCSystemType                                          : Desktop
+CsPCSystemTypeEx                                        : Desktop
+CsPowerManagementCapabilities                           : 
+CsPowerManagementSupported                              : 
+CsPowerOnPasswordStatus                                 : Unknown
+CsPowerState                                            : Unknown
+CsPowerSupplyState                                      : Safe
+CsPrimaryOwnerContact                                   : 
+CsPrimaryOwnerName                                      : 
+CsResetCapability                                       : Other
+CsResetCount                                            : -1
+CsResetLimit                                            : -1
+CsRoles                                                 : {LM_Workstation, LM_Server, NT}
+CsStatus                                                : OK
+CsSupportContactDescription                             : 
+CsSystemFamily                                          : Virtual Machine
+CsSystemSKUNumber                                       : 
+CsSystemType                                            : x64-based PC
+CsThermalState                                          : Safe
+CsTotalPhysicalMemory                                   : 6441902080
+CsPhyicallyInstalledMemory                              : 6291456
+CsUserName                                              : 
+CsWakeUpType                                            : PowerSwitch
+CsWorkgroup                                             : WORKGROUP
+OsName                                                  : Microsoft Windows 10 Pro
+OsType                                                  : WINNT
+OsOperatingSystemSKU                                    : 48
+OsVersion                                               : 10.0.19045
+OsCSDVersion                                            : 
+OsBuildNumber                                           : 19045
+OsHotFixes                                              : {KB5020872, KB4537759, KB4557968, KB4560366...}
+OsBootDevice                                            : \Device\HarddiskVolume1
+OsSystemDevice                                          : \Device\HarddiskVolume1
+OsSystemDirectory                                       : C:\windows\system32
+OsSystemDrive                                           : C:
+OsWindowsDirectory                                      : C:\windows
+OsCountryCode                                           : 1
+OsCurrentTimeZone                                       : -300
+OsLocaleID                                              : 0409
+OsLocale                                                : en-US
+OsLocalDateTime                                         : 2/14/2023 4:15:18 PM
+OsLastBootUpTime                                        : 1/27/2023 1:13:55 PM
+OsUptime                                                : 18.03:01:22.9549134
+OsBuildType                                             : Multiprocessor Free
+OsCodeSet                                               : 1252
+OsDataExecutionPreventionAvailable                      : True
+OsDataExecutionPrevention32BitApplications              : True
+OsDataExecutionPreventionDrivers                        : True
+OsDataExecutionPreventionSupportPolicy                  : OptIn
+OsDebug                                                 : False
+OsDistributed                                           : False
+OsEncryptionLevel                                       : 256
+OsForegroundApplicationBoost                            : Maximum
+OsTotalVisibleMemorySize                                : 6290920
+OsFreePhysicalMemory                                    : 2310944
+OsTotalVirtualMemorySize                                : 7339496
+OsFreeVirtualMemory                                     : 2498164
+OsInUseVirtualMemory                                    : 4841332
+OsTotalSwapSpaceSize                                    : 
+OsSizeStoredInPagingFiles                               : 1048576
+OsFreeSpaceInPagingFiles                                : 935204
+OsPagingFiles                                           : {C:\pagefile.sys}
+OsHardwareAbstractionLayer                              : 10.0.19041.2251
+OsInstallDate                                           : 12/23/2022 8:25:10 AM
+OsManufacturer                                          : Microsoft Corporation
+OsMaxNumberOfProcesses                                  : 4294967295
+OsMaxProcessMemorySize                                  : 137438953344
+OsMuiLanguages                                          : {en-US}
+OsNumberOfLicensedUsers                                 : 0
+OsNumberOfProcesses                                     : 173
+OsNumberOfUsers                                         : 3
+OsOrganization                                          : 
+OsArchitecture                                          : 64-bit
+OsLanguage                                              : en-US
+OsProductSuites                                         : {TerminalServicesSingleSession}
+OsOtherTypeDescription                                  : 
+OsPAEEnabled                                            : 
+OsPortableOperatingSystem                               : False
+OsPrimary                                               : True
+OsProductType                                           : WorkStation
+OsRegisteredUser                                        : 
+OsSerialNumber                                          : 00330-80000-00000-AA707
+OsServicePackMajorVersion                               : 0
+OsServicePackMinorVersion                               : 0
+OsStatus                                                : OK
+OsSuites                                                : {TerminalServices, TerminalServicesSingleSession}
+OsServerLevel                                           : 
+KeyboardLayout                                          : en-US
+TimeZone                                                : (UTC-05:00) Eastern Time (US & Canada)
+LogonServer                                             : \\WIN-OPS
+PowerPlatformRole                                       : Desktop
+HyperVisorPresent                                       : True
+HyperVRequirementDataExecutionPreventionAvailable       : 
+HyperVRequirementSecondLevelAddressTranslation          : 
+HyperVRequirementVirtualizationFirmwareEnabled          : 
+HyperVRequirementVMMonitorModeExtensions                : 
+DeviceGuardSmartStatus                                  : Off
+DeviceGuardRequiredSecurityProperties                   : 
+DeviceGuardAvailableSecurityProperties                  : 
+DeviceGuardSecurityServicesConfigured                   : 
+DeviceGuardSecurityServicesRunning                      : 
+DeviceGuardCodeIntegrityPolicyEnforcementStatus         : 
+DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus : 
+
+
+
+
+Name   HealthStatus OperationalStatus
+----   ------------ -----------------
+ADMIN$ Healthy      Online           
+C$     Healthy      Online           
+
+
+
+Status     Class           FriendlyName                                                                     InstanceId 
+------     -----           ------------                                                                     ---------- 
+Unknown    AudioEndpoint   Remote Audio                                                                     SWD\MMDE...
+OK         Net             Red Hat VirtIO Ethernet Adapter                                                  PCI\VEN_...
+OK         System          PCI to ISA Bridge                                                                PCI\VEN_...
+OK         Display         Microsoft Basic Display Adapter                                                  PCI\VEN_...
+OK         Monitor         Generic Non-PnP Monitor                                                          DISPLAY\...
+OK         System          Extended IO Bus                                                                  ACPI\PNP...
+OK         PrintQueue      Root Print Queue                                                                 SWD\PRIN...
+OK         System          Volume Manager                                                                   ROOT\VOL...
+OK         System          Microsoft Basic Display Driver                                                   ROOT\BAS...
+OK         Net             TAP-Windows Adapter V9 for OpenVPN Connect                                       ROOT\NET...
+OK         System          UMBus Enumerator                                                                 UMB\UMB\...
+OK         System          Microsoft Hyper-V Virtualization Infrastructure Driver                           ROOT\VID...
+OK         System          Composite Bus Enumerator                                                         ROOT\COM...
+OK         System          Microsoft Virtual Drive Enumerator                                               ROOT\VDR...
+OK         Display         Microsoft Remote Display Adapter                                                 SWD\REMO...
+OK         System          Extended IO Bus                                                                  ACPI\PNP...
+OK         SCSIAdapter     Microsoft Storage Spaces Controller                                              ROOT\SPA...
+OK                         vport0p1                                                                         {6FDE754...
+OK         System          Extended IO Bus                                                                  ACPI\PNP...
+OK         Ports           Communications Port (COM1)                                                       ACPI\PNP...
+OK         DiskDrive       Red Hat VirtIO SCSI Disk Device                                                  SCSI\DIS...
+OK         Net             Microsoft Kernel Debug Network Adapter                                           ROOT\KDN...
+OK         System          ACPI Processor Container Device                                                  ACPI\ACP...
+Error                                                                                                       ACPI\QEM...
+OK         System          UMBus Enumerator                                                                 UMB\UMB\...
+OK         Processor       AMD EPYC Processor (with IBPB)                                                   ACPI\AUT...
+OK         Processor       AMD EPYC Processor (with IBPB)                                                   ACPI\AUT...
+OK         Processor       AMD EPYC Processor (with IBPB)                                                   ACPI\AUT...
+OK         Processor       AMD EPYC Processor (with IBPB)                                                   ACPI\AUT...
+OK         System          UMBus Root Bus Enumerator                                                        ROOT\UMB...
+OK         HDC             Intel(R) 82371SB PCI Bus Master IDE Controller                                   PCI\VEN_...
+OK         Keyboard        Remote Desktop Keyboard Device                                                   TERMINPU...
+OK         SoftwareDevice  Microsoft Radio Device Enumeration Bus                                           SWD\RADI...
+OK         Mouse           Remote Desktop Mouse Device                                                      TERMINPU...
+OK         SoftwareDevice  Microsoft Device Association Root Enumerator                                     SWD\MSDA...
+OK         System          CPU to PCI Bridge                                                                PCI\VEN_...
+OK         Computer        ACPI x64-based PC                                                                ROOT\ACP...
+OK         System          PCI Bus                                                                          ACPI\PNP...
+OK         Monitor         Generic Non-PnP Monitor                                                          DISPLAY\...
+OK         SCSIAdapter     Red Hat VirtIO SCSI controller                                                   PCI\VEN_...
+OK         System          Microsoft ACPI-Compliant System                                                  ACPI_HAL...
+OK                                                                                                          HTREE\RO...
+OK         System          Microsoft Basic Render Driver                                                    ROOT\BAS...
+OK         System          Remote Desktop Camera Bus                                                        UMB\UMB\...
+OK         System          UMBus Enumerator                                                                 UMB\UMB\...
+OK         HDC             ATA Channel 0                                                                    PCIIDE\I...
+OK         HDC             ATA Channel 1                                                                    PCIIDE\I...
+OK         PrintQueue      Microsoft XPS Document Writer                                                    SWD\PRIN...
+OK         System          ACPI Fixed Feature Button                                                        ACPI\FIX...
+OK         System          VirtIO Serial Driver                                                             PCI\VEN_...
+OK         PrintQueue      Microsoft Print to PDF                                                           SWD\PRIN...
+OK         Mouse           VMware Pointing Device                                                           ACPI\PNP...
+OK         FDC             Standard floppy disk controller                                                  ACPI\PNP...
+OK         SoftwareDevice  Microsoft GS Wavetable Synth                                                     SWD\MMDE...
+OK         SoftwareDevice  Smart Card Device Enumeration Bus                                                SWD\SCDE...
+OK         SoftwareDevice  Microsoft Passport Container Enumeration Bus                                     SWD\SCDE...
+OK         System          VirtIO Balloon Driver                                                            PCI\VEN_...
+OK         System          NDIS Virtual Network Adapter Enumerator                                          ROOT\NDI...
+OK         System          VirtIO RNG Device                                                                PCI\VEN_...
+OK         System          Remote Desktop USB Hub                                                           TS_USB_H...
+OK         System          System CMOS/real time clock                                                      ACPI\PNP...
+OK         Volume          Volume                                                                           STORAGE\...
+OK         Keyboard        Standard PS/2 Keyboard                                                           ACPI\PNP...
+OK         System          Microsoft System Management BIOS Driver                                          ROOT\MSS...
+OK         System          Plug and Play Software Device Enumerator                                         ROOT\SYS...
+OK         System          Remote Desktop Device Redirector Bus                                             ROOT\RDP...
+OK         PrintQueue      Fax                                                                              SWD\PRIN...
+
+

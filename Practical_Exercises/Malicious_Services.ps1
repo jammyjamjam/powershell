@@ -14,6 +14,15 @@ Hint
 #>
 function Get-SuspiciousService{
 
-    Get-CimInstance win32_service | Where-Object { $_.Description -notmatch "^t.*"} | Where-Object {$_.Description -match "\(.*\)" } | Where-Object {$_.Description -notmatch "\.$"} | Select-Object Name,Description | ogv}
+    $list_of_sus_services = "$pwd\sus_services.txt"
+
+    Add-content $list_of_sus_services -encoding utf8 -value "Task 1`n=================================================================================`n" 
+    Get-CimInstance win32_service | Where-Object { $_.Description -notmatch "^T.*"} | Select-Object Name,Description | Format-Table -Wrap -AutoSize | out-file $list_of_sus_services -encoding utf8 -append 
+    Add-Content $list_of_sus_services -encoding utf8 -value "Task 2`n=================================================================================`n"    
+    Get-CimInstance win32_service | Where-Object {$_.Description -match "\(.*\)" } | Select-Object Name,Description | Format-Table -Wrap -AutoSize | out-file $list_of_sus_services -encoding utf8 -append
+    Add-Content $list_of_sus_services -encoding utf8 -value "Task 3`n=================================================================================`n"
+    Get-CimInstance win32_service | Where-Object {$_.Description -notmatch "\.$"} | Select-Object Name,Description | Format-Table -Wrap -AutoSize | out-file $list_of_sus_services -encoding utf8 -append
+
+}
 
 Get-SuspiciousService
