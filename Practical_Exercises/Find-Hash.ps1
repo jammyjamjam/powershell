@@ -1,33 +1,44 @@
-<#
-.SYNOPSIS
-Takes in a directory and one or more file hashes and searches the given directory and subdirectories for files with matching hashes and returns the matches
+#Function 1 - Find-Hash
 
-.DESCRIPTION
-The Find-Hash cmdlet takes in a directory and one or more file hashes and searches the given directory and subdirectories for files with matching hashes and returns the matches
-
-.PARAMETER Directory
-Specifies the starting directory to start searching for the hashes
-
-.PARAMETER Hash
-Specifies what hash to search for
-
-.EXAMPLE
-Find-Hash -Directory "C:\users\SomeUser\" -Hash "3b37902966082536964efdd8cf51ff5f"
-
-.EXAMPLE
-Find-Hash -Directory "C:\" -Hash "3b37902966082536964efdd8cf51ff5f" "7c678ef59b6a6addae22cffcfaf1dbaf" "821fa74b50ba3f7cba1e6c53e8fa6845"
-
-#>
-
-function Find-Hash{
-
+function Find-Hash {
+    <# 
+    .SYNOPSIS
+    Identifies files in a given directory and its subdirectories that match one or more MD5 hashes.
+    
+    .DESCRIPTION
+    This script hashes each individual file in a given directory and its subdirectories and compares each hash against a list of known MD5 hashes. It sends to standard output the name, with full file path, of any matching files.
+    
+    .PARAMETER Directory
+    Specifies the directory to search for files. Default value is "C:\Windows\System32".
+    
+    .PARAMETER Hash
+    Specifies the MD5 hash value(s) to compare against.
+    
+    .EXAMPLE
+    .\Get-MatchingFiles.ps1 -Directory "C:\MyFiles" -Hash "d41d8cd98f00b204e9800998ecf8427e"
+    Searches for files in "C:\MyFiles" that match the specified MD5 hash value.
+    
+    .EXAMPLE
+    .\Get-MatchingFiles.ps1 -Directory "C:\MyFiles","D:\OtherFiles" -Hash "d41d8cd98f00b204e9800998ecf8427e","cfcd208495d565ef66e7dff9f98764da"
+    Searches for files in "C:\MyFiles" and "D:\OtherFiles" that match the specified MD5 hash values.
+    
+    #>
+    
+    [CmdletBinding()]
     param (
-        $Directory
+        [Parameter(Mandatory=$false, ValueFromPipeline=$true)]
+        [string[]]$Directory = "C:\Windows\System32",
+        [Parameter(Mandatory=$true)]
+        [string[]]$Hash
     )
-    Write-Output $Directory
-    param (
-        $Hash
-    )
-    Write-Output $Hash
-
-}
+    
+    $ErrorActionPreference = "SilentlyContinue"
+    
+    $files = Get-ChildItem -Path $Directory -Recurse -File
+    foreach ($file in $files) {
+        $hash_file = Get-FileHash $file.FullName -Algorithm MD5
+        if ($hash_file.Hash -in $Hash) {
+            Write-Output "The following file $($file.FullName) matched the given hash: $($hash_file.hash)"
+        }
+    }
+    }
