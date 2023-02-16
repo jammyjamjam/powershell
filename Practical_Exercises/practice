@@ -1,0 +1,113 @@
+<# 1 #>
+function q1($var1,$var2,$var3,$var4) {
+    <# Return the product of the arguments #>
+    $answer = ($var1 * $var2 * $var3 * $var4)
+    return $answer
+}
+function q2($arr,$rows,$cols,$key) {
+    <# Search the 2 dimensional array for the first occurance of key at column index 0
+       and return the value at column index 9 of the same row.
+       Return -1 if the key is not found.
+    #>
+
+    foreach ($subarray in $arr) {
+    
+   foreach ($item in $subarray[0]){
+    
+    
+    if ($item -eq $key) {
+    
+    $matched_key = $subarray[9]
+    break
+    
+    }
+    
+    else {continue}
+
+    }
+
+    }
+    if ($matched_key) {return $matched_key}
+    else {return -1} 
+
+}
+function q3 {
+    <# In a loop, prompt the user to enter positive integers one at time.
+       Stop when the user enters a -1. Return the maximum positive
+       value that was entered."
+	#>
+
+    $largest_int = 0
+    while($true) {
+    
+    
+    $provided_int = Read-Host -Prompt "Enter a positive integer"
+    
+    if ([int]$provided_int -eq -1) {break}
+    
+    elseif ([int]$provided_int -gt $largest_int) {$largest_int = [int]$provided_int}
+    else {continue}        
+            
+        }
+
+        return $largest_int
+    
+}
+function q4($filename,$whichline) {
+    <# Return the line of text from the file given by the `$filename
+	   argument that corresponds to the line number given by `$whichline.
+	   The first line in the file corresponds to line number 0."
+	#>
+
+    return Get-Content $filename | Select -Index $whichline
+    
+}
+function q5($path) {
+    <# Return the child items from the given path sorted
+       ascending by their Name
+	#>
+    Get-childItem -Path $path | Sort-Object -Property Name
+
+}
+function q6 {
+    <# Return the sum of all elements provided on the pipeline
+	#>
+    $sum = 0
+    foreach($item in $input) {$sum += $item}
+    
+    return $sum
+}
+function q7 {
+	<# Return only those commands whose noun is process #>
+    Get-Command -Noun Process
+    
+}
+function q8($adjective) {
+    <# Return the string 'PowerShell is ' followed by the adjective given
+	   by the `$adjective argument
+	#>
+
+    return "PowerShell is $($adjective)"
+}
+function q9($addr) {
+	<# Return `$true when the given argument is a valid IPv4 address,
+	   otherwise return `$false. For the purpose of this function, regard
+	   addresses where all octets are in the range 0-255 inclusive to
+	   be valid.
+	#>
+      $regex = "\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b"
+
+        if (Select-String -Pattern $regex -InputObject $addr) {return $true}
+        else {return $false}
+        
+}
+function q10 ($filepath,$lasthash) {
+    <# Return `$true if the contents of the file given in the
+       `$filepath argument have changed since `$lasthash was
+       computed. `$lasthash is the previously computed SHA256
+       hash (as a string) of the contents of the file. #>
+
+       $filehash = Get-FileHash -Algorithm SHA256 $filepath | select -ExpandProperty hash
+       if ($filehash -eq $lasthash) {return $false}
+       else {return $true}
+}
